@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành Nam Restaurant - Đầu Bếp</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icon.ico">
+
+    <!-- Reset layout -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Dialog box -->
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+
+    <!-- Slide show -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Main StyleSheet CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Responesive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="grid" style="overflow:hidden">
+        <!-- header -->
+        <header class="header fixed-top">
+            <div class="navbar">
+                <!-- nav pc -->
+                <nav class="grid wide row">
+                    <div class="navbar__left">
+                        <a href="index.html">
+                            <img src="images/logo-brand.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="navbar__right hide-on-mobile-tablet">
+                        <ul>
+                            <li><a href="index.html">Trang Chủ</a></li>
+                            <li><a href="menu.html">Thực Đơn</a></li>
+                            <li><a href="book-a-table.html">Đặt Bàn</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a class="scroll-to-contact" href="#go-to-contact">Liên Hệ</a></li>
+                            <li class="sub-menu">
+                                <a class="active" href="javascript:;">Khác
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="sub-menu__content">
+                                    <li><a href="gallery.html">Ảnh</a></li>
+                                    <li><a href="about-us.html">Về Chúng Tôi</a></li>
+                                    <li><a class="active" href="chef.html">Đầu Bếp</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- nav mobile - tablet -->
+                <div class="nav">
+                    <label for="navbar-btn--input" class="navbar-btn display-on-mobile-tablet">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </label>
+                    <input type="checkbox" name="btn" id="navbar-btn--input" class="navbar-input" hidden>
+                    <label for="navbar-btn--input" class="navbar__overlay"></label>
+                    <nav class="navbar-moble-tablet">
+                        <label for="navbar-btn--input" class="navbar-btn--close">
+                            <i class="fas fa-times fa-2x"></i>
+                        </label>
+                        <ul class="navbar-list">
+                            <li>
+                                <a class="navbar-link" href="index.html">
+                                    <i class="fas fa-home"></i>Trang Chủ
+                                </a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="menu.html"><i class="far fa-list-alt"></i>Thực Đơn</a>
+                            </li>
+                            <li><a class="navbar-link" href="book-a-table.html"><i class="fas fa-chair"></i>Đặt Bàn</a>
+                            </li>
+                            <li><a class="navbar-link" href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+                            <li>
+                                <a class="scroll-to-contact navbar-link exit-overlay" href="#go-to-contact">
+                                    <label for="navbar-btn--input"><i class="fas fa-phone-volume"></i>Liên Hệ</label>
+                                </a>
+                            </li>
+                            <li><a class="navbar-link" href="about-us.html"><i class="far fa-address-card"></i>Về Chúng
+                                    Tôi</a>
+                            </li>
+                            <li><a class="navbar-link" href="gallery.html"><i class="far fa-image"></i>Ảnh</a>
+                            </li>
+                            <li><a class="navbar-link active" href="chef.html"><i class="fas fa-utensils"></i>Đầu
+                                    Bếp</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <!-- end header -->
+
+        <!-- container-fluid -->
+        <section class="container-fluid--bg container-fluid--bg__chef" id="goback">
+            <div class="grid wide container-fluid--bg__content">
+                <h1 class="header-page">Đầu Bếp</h1>
+            </div>
+        </section>
+        <!-- end container-fluid-->
+
+        <!-- chef -->
+        <section class="grid wide">
+            <div class="row container-chef">
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-09.jpg" alt="Christine Hà images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Christine Hà</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-01.jpg" alt="James Oliver images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">James Oliver</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-02.jpg" alt="Gordon Ramsay images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Gordon Ramsay</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-03.jpg" alt="Bobby Flay images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Bobby Flay</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-04.jpg" alt="Faul Bocuse images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Faul Bocuse</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-05.jpg" alt="Cat Cora images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Cat Cora</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-06.jpg" alt="Thomas Keller images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Thomas Keller</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-07.jpg" alt="Heston Blumenthal images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Heston Blumenthal</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/chef-img-08.jpg" alt="Jordi Cruz images">
+                            <ul class="social-items our-team__contact">
+                                <li>
+                                    <a class="btn-footer" href="https://twitter.com/ThnhNam35638876" target="_blank">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://www.instagram.com/yuuto2k1" target="_blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="#notlink">
+                                        <i class="fab fa-google" target="_blank"></i></a>
+                                </li>
+                                <li>
+                                    <a class="btn-footer" href="https://github.com/nhokchibi365" target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="team-content">
+                            <h2 class="team-content__name">Jordi Cruz</h2>
+                            <p class="team-content__job">Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end chef -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer top -->
+            <div class="footer__top">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6 s-0" data-aos="zoom-in">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9356596756593!2d106.6756248153521!3d10.816235861414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e19559e523%3A0x8e4133bdb1373cc9!2zMzcxIE5ndXnhu4VuIEtp4buHbSwgUGjGsOG7nW5nIDMsIEfDsiBW4bqlcCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1597454228030!5m2!1svi!2s"
+                                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <div class="col l-6 m-6 s-0" data-aos="zoom-in">
+                            <div class="row">
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="fas fa-phone-volume"></i>
+                                    </div>
+                                    <p><span>Phone</span><br>+84 1944-183-710</p>
+                                </div>
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <p><span>Email</span><br>nhokchibi365@gmail.com</p>
+                                </div>
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <p><span>Location</span><br>371 Nguyễn Kiệm, P.3, Q.Gò Vấp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer mid -->
+            <div class="footer__mid" data-aos="fade-up">
+                <div class="footer__mid-bg">
+                    <div class="grid wide">
+                        <div class="footer__mid-content">
+                            <div class="row">
+                                <div class="col l-3 m-6 s-12 footer__mid-items footer__mid-about">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Về Chúng Tôi</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>Sự hài lòng của quý khách là niềm vinh hạnh của chúng tôi. Chúc quý khách có
+                                            1 bữa tiệc ngon miệng, chúng tôi luôn đồng hành và phục vụ hết mình. Xin cảm
+                                            ơn !!!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items footer__mid-subcribe">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Đăng Ký Nhận Thông Tin</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <form action="javascript:void(0);">
+                                            <input type="email" placeholder="Nhập địa chỉ Email..." id="register">
+                                            <input type="submit" value="Đăng Ký" onclick="registerCheck()">
+                                        </form>
+                                        <ul class="social-items">
+                                            <li>
+                                                <a class="btn-footer" href="https://twitter.com/ThnhNam35638876"
+                                                    target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://www.instagram.com/yuuto2k1"
+                                                    target="_blank"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="#notlink"><i class="fab fa-google"
+                                                        target="_blank"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://github.com/nhokchibi365"
+                                                    target="_blank"><i class="fab fa-github"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Thông Tin Liên Lạc</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>371 Nguyễn Kiệm, P.3, Q.Gò Vấp</p>
+                                        <p>+84 1944-183-710</p>
+                                        <p>nhokchibi365@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Giờ Mở Cửa</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>Thứ Hai: Đóng Cửa</p>
+                                        <p>Thứ Ba - Thứ Tư: 9:AM - 10:PM</p>
+                                        <p>Thứ Năm - Thứ Sáu: 9:AM - 10:PM</p>
+                                        <p>Thứ Bảy - Chủ Nhật: 5:PM - 10:PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer bottom -->
+            <div class="footer__bottom" id="go-to-contact">
+                <p>Copyright &copy; 2020 All Rights Reserved</p>
+                <p>Design By Thành Nam</p>
+                <a id="go-to-top" href="#goback"><i class="fas fa-angle-up"></i></a>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="105825651245887" theme_color="#f05123"
+        logged_in_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?"
+        logged_out_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?">
+    </div>
+
+    <!-- Animation JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- All Flugins -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- All File JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

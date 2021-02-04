@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành Nam Restaurant - Về Chúng Tôi</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icon.ico">
+
+    <!-- Reset layout -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Dialog box -->
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+
+    <!-- Slide show -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Main StyleSheet CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Responesive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="grid" style="overflow:hidden">
+        <!-- header -->
+        <header class="header fixed-top">
+            <div class="navbar">
+                <!-- nav pc -->
+                <nav class="grid wide row">
+                    <div class="navbar__left">
+                        <a href="index.html">
+                            <img src="images/logo-brand.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="navbar__right hide-on-mobile-tablet">
+                        <ul>
+                            <li><a href="index.html">Trang Chủ</a></li>
+                            <li><a href="menu.html">Thực Đơn</a></li>
+                            <li><a href="book-a-table.html">Đặt Bàn</a></li>
+                            <li><a href="blog.html">Blog</a>
+                            </li>
+                            <li><a class="scroll-to-contact" href="#go-to-contact">Liên Hệ</a></li>
+                            <li class="sub-menu">
+                                <a class="active" href="javascript:;">Khác
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="sub-menu__content">
+                                    <li><a href="gallery.html">Ảnh</a></li>
+                                    <li><a class="active" href="about-us.html">Về Chúng Tôi</a></li>
+                                    <li><a href="chef.html">Đầu Bếp</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- nav mobile - tablet -->
+                <div class="nav">
+                    <label for="navbar-btn--input" class="navbar-btn display-on-mobile-tablet">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </label>
+                    <input type="checkbox" name="btn" id="navbar-btn--input" class="navbar-input" hidden>
+                    <label for="navbar-btn--input" class="navbar__overlay"></label>
+                    <nav class="navbar-moble-tablet">
+                        <label for="navbar-btn--input" class="navbar-btn--close">
+                            <i class="fas fa-times fa-2x"></i>
+                        </label>
+                        <ul class="navbar-list">
+                            <li>
+                                <a class="navbar-link" href="index.html">
+                                    <i class="fas fa-home"></i>Trang Chủ
+                                </a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="menu.html"><i class="far fa-list-alt"></i>Thực Đơn</a>
+                            </li>
+                            <li><a class="navbar-link" href="book-a-table.html"><i class="fas fa-chair"></i>Đặt Bàn</a>
+                            </li>
+                            <li><a class="navbar-link" href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+                            <li>
+                                <a class="scroll-to-contact navbar-link exit-overlay" href="#go-to-contact">
+                                    <label for="navbar-btn--input"><i class="fas fa-phone-volume"></i>Liên Hệ</label>
+                                </a>
+                            </li>
+                            <li><a class="navbar-link active" href="about-us.html">
+                                    <i class="far fa-address-card"></i>Về Chúng Tôi</a>
+                            </li>
+                            <li><a class="navbar-link" href="gallery.html"><i class="far fa-image"></i>Ảnh</a>
+                            </li>
+                            <li><a class="navbar-link" href="chef.html"><i class="fas fa-utensils"></i>Đầu Bếp</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <!-- end header -->
+
+        <!-- container-fluid -->
+        <section class="container-fluid--bg container-fluid--bg__about-us" id="goback">
+            <div class="grid wide container-fluid--bg__content">
+                <h1 class="header-page">Về Chúng Tôi</h1>
+            </div>
+        </section>
+        <!-- end container-fluid-->
+
+        <!-- About Us -->
+        <section class="grid wide">
+            <header class="headline">
+                <h2>Về Chúng Tôi</h2>
+                <p>Lịch sử hình thành và phát triển của Thành Nam Restaurant</p>
+            </header>
+            <div class="about-us-bg" data-aos="fade-up">
+                <div class="row about-us__content">
+                    <div class="col l-6 m-12 s-12" data-aos="zoom-in" data-aos-delay="500">
+                        <p>Buffet từ lâu đã được ưa chuộng ở châu Âu, xuất hiện lần đầu tiên vào thế kỷ 17 tại Pháp. Với
+                            một hình thức ăn uống mới mẻ, phong phú về thực đơn, tinh tế về hình thức và chất lượng
+                            trong từng món ăn. Với đội ngũ nhân viên lành nghề và chuyên nghiệp, chúng tôi tự tin tiên
+                            phong mở đường, quyết tâm đưa vào danh sách ẩm thực Việt một phong cách ăn uống hoàn toàn
+                            mới.</p>
+                        <p>Từ bao đời nay, song hành cùng lịch sử ngàn năm văn hiến, ẩm thực đã được nâng tầm không chỉ
+                            là nhu cầu vật chất thuần túy, mà nó đã trở thành Văn hóa ẩm thực nói chung, và là cái nét
+                            của từng vùng miền dân tộc nói riêng. Với cái khái tính cố hữu của những người Sài Gòn,
+                            chúng tôi luôn kiếm tìm sự tinh túy trong từng món ăn, và với phương châm: “Vị ngọn trong
+                            khẩu vị , vị ngọt trong tinh thần", hệ thống nhà hàng Thành Nam đã ra đời nhằm làm thỏa mãn
+                            những thực khách khó tính nhất. Mỗi một không gian thuộc hệ thống nhà hàng, là một sự tổng
+                            hợp hài hòa giữa tinh hoa ẩm thực, nét đẹp về kiến trúc và sự tận tụy trong yếu tố con
+                            người. Chúng tôi mong muốn mang đến những nét quen mà lạ, và giúp định nghĩa sự hoàn hảo
+                            trong lòng mỗi thực khách khi đến đây.</p>
+                    </div>
+                    <div class="col l-6 m-12 s-12 about-us__img" data-aos="fade-down" data-aos-delay="1000">
+                        <img src="images/about-us-history-01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-bg" data-aos="fade-up">
+                <div class="row about-us__content">
+                    <div class="col l-6 m-12 s-12 about-us__img" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="images/about-us-history-02.jpg" alt="">
+                    </div>
+                    <div class="col l-6 m-12 s-12">
+                        <p data-aos="fade-down" data-aos-delay="800">Tự hào là chuỗi nhà hàng buffet lớn nhất Việt Nam,
+                            hệ thống nhà hàng Thành Nam cung cấp bữa
+                            trưa và bữa tối tự chọn với thực đơn phong phú bao gồm hơn 150 món ăn 3 miền, món ăn Âu - Á,
+                            các loại hải sản, đồ nướng và đồ Nhật… Giờ đây, bạn sẽ không còn phải băn khoăn lựa chọn
+                            giữa hàng trăm ngàn thương hiệu ăn uống, bởi vì cho dù là một bữa tối đơn giản giữa những
+                            người thân, người bạn, những bữa tiệc liên hoan tưng bừng của anh chị em đồng nghiệp hay một
+                            buổi gặp gỡ thân mật, quây quần ấm cúng của cả đại gia đình, chúng tôi đều có thể đáp ứng
+                            được mọi nhu cầu đa dạng của quý thực khách.</p>
+                        <p data-aos="fade-down" data-aos-delay="1100">Không chỉ là nơi tụ hội các món ăn ngon từ khắp
+                            các vùng miền trên cả nước và thế giới, nhà
+                            hàng Thành Nam là đơn vị duy nhất mang đến cho thực khách một không gian ẩm thực mới lạ, đậm
+                            nét văn hóa. Các chương trình biểu diễn nhạc sống gồm có nhạc cổ điển, nhạc dân tộc, nhạc
+                            trữ tình, liên kết cùng các đơn vị như liên đoàn Xiếc Việt Nam, hứa hẹn mang đến cho quý
+                            thực khách những chương trình tạp kĩ nghệ thuật đầy hấp dẫn, để thực khách vừa được hòa mình
+                            vào lễ hội ẩm thực, vừa được thết đãi những “ món ngon tinh thần “ một cách trọn vẹn và hoàn
+                            hảo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-bg" data-aos="fade-up">
+                <div class="row about-us__content">
+                    <div class="col l-6 m-12 s-12">
+                        <h2 data-aos="fade-right">LỊCH SỬ THƯƠNG HIỆU</h2>
+                        <p data-aos="zoom-in" data-aos-delay="500">2004 là mốc son khởi đầu, đánh dấu sự thành lập của
+                            Khu Văn Hóa Ẩm Thực Thành Nam - đứa con
+                            tinh thần được thai nghén trong cả một quá trình dài học hỏi và trải nghiệm, đặt nền móng
+                            vững chắc cho các bước phát triển không ngừng nghỉ của chuỗi nhà hàng Thành Nam sau này.</p>
+                        <p data-aos="zoom-in" data-aos-delay="1000">Ý thức được trách nhiệm của người đi tiên phong khi
+                            mang một làn gió mới trong lĩnh vực ẩm
+                            thực vào Việt Nam, ngay từ những ngày đầu thành lập chúng tôi đã ấp ủ một kế hoạch vững chắc
+                            và lâu dài, xây dựng và mở rộng hoạt động kinh doanh thành một chuỗi những nhà hàng, được
+                            đặt rải rác trên khắp các quận ở thành phố Hồ Chí Minh. Vì lẽ đó năm 2007, nhà hàng tiếp
+                            theo mang tên Thành Nam Sài Thành được khai trương và chỉ 1 năm sau đó, nhà hàng Thành Nam
+                            Nam Thanh được thành lập. Nối tiếp những thành công trong lĩnh vực kinh doanh dịch vụ ăn
+                            uống, vào năm 2011 nhà hàng Maison THÀNH NAMs tiếp tục được ra đời.</p>
+                    </div>
+                    <div class="col l-6 m-12 s-12 about-us__img" data-aos="fade-up" data-aos-delay="500">
+                        <img src="images/about-us-history-03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-bg" data-aos="fade-up">
+                <div class="row about-us__content">
+                    <div class="col l-6 m-12 s-12 about-us__img" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="images/about-us-history-04.jpg" alt="">
+                    </div>
+                    <div class="col l-6 m-12 s-12">
+                        <p data-aos="fade-down" data-aos-delay="800">Tọa lạc trên con phố Trần Hưng Đạo cổ kính, được
+                            tôn tạo trên nền một biệt thự Pháp cổ,
+                            Maison THÀNH NAMs được biết đến như một nhà hàng sang trọng bậc nhất thành phố HỒ Chí Minh.
+                            Thưởng thức những món ngon tuyệt hảo trong không gian lãng mạn của ngôi biệt thử cổ giữa
+                            lòng thủ đô, Maison Thành Nams đã làm nức lòng ngay cả những thực khách khó tính nhất.</p>
+                        <p data-aos="fade-down" data-aos-delay="1100">Tháng 12 năm 2013, trên con đường ngày một nâng
+                            cấp chất lượng dịch vụ và cũng là một trong
+                            những cột mốc đáng nhớ của hệ thống nhà hàng Buffet Thành Nam, Thành Nam 60 Lý Thái Tổ ra
+                            đời, thay thế cho người anh em thứ 2 trong hệ thống nhà hàng Thành Nam – Thành Nam Sài
+                            Thành. Mỗi một nhà hàng mở ra là một dấu ấn quan trọng trong sự nghiệp phát triển của THÀNH
+                            NAM, là thêm một lần chúng tôi khẳng định vị thế của thương hiệu như một con tàu đang vươn
+                            mình ra biển lớn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-bg" data-aos="fade-up">
+                <div class="row about-us__content">
+                    <div class="col l-6 m-12 s-12">
+                        <p data-aos="zoom-in" data-aos-delay="500">Nhà hàng đầu tiên mang ý nghĩa khởi đầu cho một kỉ
+                            nguyên mới trong lĩnh vực nhà hàng và dịch
+                            vụ, như một lời tuyên bố “Chúng tôi đã đến”, nhà hàng thứ hai tiếp bước như một sự khẳng
+                            định “Chúng tôi không chỉ có một” , nhà hàng thứ ba là minh chứng rõ ràng nhất,đánh dấu cho
+                            sự phát triển mạnh mẽ trong một bản kế hoạch dài hơi. và chúng tôi sẽ không chỉ dừng lại ở
+                            nhà hàng thứ tư – một bước ngoặt mới - Sự thăng hoa của một thương hiệu!</p>
+                        <p data-aos="zoom-in" data-aos-delay="1000">Tính đến thời điểm này, Buffet đang dần trở nên quen
+                            thuộc với người Việt Nam, đồng nghĩa
+                            với sự xuất hiện của các nhà hàng lớn nhỏ khác nhau ,đang góp phần tạo nên một sân chơi nhộn
+                            nhịp trong ngành dịch vụ. Nhưng cái cách mà chúng tôi đang tồn tại và phát triển trong hơn
+                            10 năm qua chính là dựa trên sự tâm huyết, nhiệt thành, tận tụy, không gì ngoài những mong
+                            muốn xây dựng một quy trình vận hành bài bản và bền vững nhằm mang đến một dịch vụ trên mức
+                            hoàn hảo cho khách hàng khi đã tin yêu và kì vọng ở chúng tôi. Bên cạnh đó chúng tôi cũng
+                            không ngừng học hỏi, luôn làm mới mình không chỉ ở những món ăn ngon mà còn cả ở không gian
+                            và muôn vàn những dịch vụ cao cấp khác.
+                        </p>
+                    </div>
+                    <div class="col l-6 m-12 s-12 about-us__img" data-aos="fade-up" data-aos-delay="500">
+                        <img src="images/about-us-history-05.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-bg" data-aos="fade-up">
+                <div class="row about-us__content">
+                    <div class="col l-6 m-12 s-12 about-us__img" data-aos="fade-in" data-aos-delay="500">
+                        <img src="images/about-us-history-06.jpg" alt="">
+                    </div>
+                    <div class="col l-6 m-12 s-12">
+                        <p data-aos="fade-down" data-aos-delay="800">Kể từ khi thành lập, chất lượng dịch vụ của chuỗi
+                            nhà hàng THÀNH NAM đã được khách hàng tin
+                            tưởng và khẳng định khi liên tục vinh dự, được lựa chọn phục vụ buffet cho các phái đoàn cao
+                            cấp của Chính Phủ, các Hội nghị thượng đỉnh như ASEM5, Văn phòng thương mại VCC… là nơi tổ
+                            chức tiệc chiêu đãi của các doanh nhân quốc tế và hàng nghìn lượt khách du lịch trong và
+                            ngoài nước.</p>
+                        <p data-aos="fade-down" data-aos-delay="1000">Đến với chúng tôi, các bạn không chỉ đơn thuần
+                            được thưởng thức những món ăn ngon, mà sẽ được
+                            chào đón bởi cảm giác gần gũi, thân thiện từ đội ngũ nhân viên, nồng nhiệt và hồ hởi trong
+                            cung cách phục vụ, sang trọng và đa dạng trong không gian kiến trúc nhà hàng .</p>
+                        <p data-aos="fade-down" data-aos-delay="1100">Chuỗi nhà hàng Thành Nam chính là sự lựa chọn hoàn
+                            hảo dành cho tất cả mọi người!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about us -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer top -->
+            <div class="footer__top">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6 s-0" data-aos="zoom-in">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9356596756593!2d106.6756248153521!3d10.816235861414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e19559e523%3A0x8e4133bdb1373cc9!2zMzcxIE5ndXnhu4VuIEtp4buHbSwgUGjGsOG7nW5nIDMsIEfDsiBW4bqlcCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1597454228030!5m2!1svi!2s"
+                                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <div class="col l-6 m-6 s-0" data-aos="zoom-in">
+                            <div class="row">
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="fas fa-phone-volume"></i>
+                                    </div>
+                                    <p><span>Phone</span><br>+84 1944-183-710</p>
+                                </div>
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <p><span>Email</span><br>nhokchibi365@gmail.com</p>
+                                </div>
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <p><span>Location</span><br>371 Nguyễn Kiệm, P.3, Q.Gò Vấp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer mid -->
+            <div class="footer__mid" data-aos="fade-up">
+                <div class="footer__mid-bg">
+                    <div class="grid wide">
+                        <div class="footer__mid-content">
+                            <div class="row">
+                                <div class="col l-3 m-6 s-12 footer__mid-items footer__mid-about">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Về Chúng Tôi</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>Sự hài lòng của quý khách là niềm vinh hạnh của chúng tôi. Chúc quý khách có
+                                            1 bữa tiệc ngon miệng, chúng tôi luôn đồng hành và phục vụ hết mình. Xin cảm
+                                            ơn !!!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items footer__mid-subcribe">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Đăng Ký Nhận Thông Tin</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <form action="javascript:void(0);">
+                                            <input type="email" placeholder="Nhập địa chỉ Email..." id="register">
+                                            <input type="submit" value="Đăng Ký" onclick="registerCheck()">
+                                        </form>
+                                        <ul class="social-items">
+                                            <li>
+                                                <a class="btn-footer" href="https://twitter.com/ThnhNam35638876"
+                                                    target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://www.instagram.com/yuuto2k1"
+                                                    target="_blank"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="#notlink"><i class="fab fa-google"
+                                                        target="_blank"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://github.com/nhokchibi365"
+                                                    target="_blank"><i class="fab fa-github"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Thông Tin Liên Lạc</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>371 Nguyễn Kiệm, P.3, Q.Gò Vấp</p>
+                                        <p>+84 1944-183-710</p>
+                                        <p>nhokchibi365@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Giờ Mở Cửa</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>Thứ Hai: Đóng Cửa</p>
+                                        <p>Thứ Ba - Thứ Tư: 9:AM - 10:PM</p>
+                                        <p>Thứ Năm - Thứ Sáu: 9:AM - 10:PM</p>
+                                        <p>Thứ Bảy - Chủ Nhật: 5:PM - 10:PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer bottom -->
+            <div class="footer__bottom" id="go-to-contact">
+                <p>Copyright &copy; 2020 All Rights Reserved</p>
+                <p>Design By Thành Nam</p>
+                <a id="go-to-top" href="#goback"><i class="fas fa-angle-up"></i></a>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="105825651245887" theme_color="#f05123"
+        logged_in_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?"
+        logged_out_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?">
+    </div>
+
+    <!-- Animation JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- All Flugins -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- All File JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

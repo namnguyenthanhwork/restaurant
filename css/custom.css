@@ -1,0 +1,45 @@
+/* custom slick */
+.qoute .slick-list.draggable {
+  z-index: 2;
+}
+
+.slick-list.draggable:focus {
+  outline: none;
+}
+
+.slick-dots li button:before {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--primary-color);
+}
+
+.customer-reviews .slick-prev,
+.customer-reviews .slick-next {
+  color: var(--black-color);
+  width: 5rem;
+  height: 5rem;
+}
+
+.customer-reviews .slick-prev {
+  left: -5rem;
+}
+
+.customer-reviews .slick-next {
+  right: -5rem;
+}
+
+.customer-reviews .slick-prev::before,
+.customer-reviews .slick-next::before {
+  color: var(--primary-color);
+  font-size: 5rem;
+}
+
+/* custom alert */
+.swal-title,
+.swal-text {
+  color: var(--black-color);
+  font-weight: 600;
+}

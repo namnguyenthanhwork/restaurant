@@ -1,0 +1,328 @@
+/*-----------------------------------
+  Mobile & Tablet 
+ -----------------------------------*/
+@media (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none;
+  }
+
+  .display-on-mobile-tablet {
+    display: block;
+  }
+
+  /*--------------------
+    Navbar 
+   --------------------*/
+  .navbar {
+    padding: 0.8rem 0;
+  }
+  /*---------------------
+    Container-fluid
+   ---------------------*/
+  .container-fluid__content {
+    white-space: nowrap;
+  }
+
+  /*---------------------
+  Special Menu
+  ----------------------*/
+  .headline {
+    padding: 3rem 0;
+  }
+
+  /*---------------------
+    Footer
+   ---------------------*/
+  /* footer mid */
+  .footer__mid-items {
+    margin-top: 3rem;
+  }
+
+  .carousel-items__info h3 {
+    font-size: 2.4rem;
+  }
+
+  /*--------------------------------------
+  About Us Page
+  --------------------------------------*/
+  .about-us-bg:nth-child(odd) .about-us__content {
+    flex-direction: column-reverse;
+  }
+
+  /*--------------------------------------
+  Blog Page
+  --------------------------------------*/
+  .blog-left-sidebar {
+    padding: 5rem 5rem 0;
+  }
+
+  .blog-right-sidebar {
+    padding: 5rem;
+  }
+}
+
+/*------------------------------------
+  Tablet
+  ----------------------------------*/
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+
+  /*--------------------
+    Navbar 
+   --------------------*/
+  .navbar-link i {
+    margin: 0 2rem 0 4rem;
+  }
+
+  .exit-overlay label {
+    padding: 2rem 0;
+  }
+  /*---------------------
+    Container-fluid 
+   ---------------------*/
+  .container-fluid__content > p:nth-child(2) {
+    font-size: 2.4rem;
+  }
+
+  .container-fluid__content .title {
+    font-size: 6rem;
+  }
+
+  /*---------------------
+  Special Menu
+  ----------------------*/
+  .special-menu {
+    background: url(../images/SpecialMenu-bg-tablet.jpg) repeat-y;
+  }
+
+  .headline {
+    padding: 3rem 0 0;
+  }
+
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 3rem;
+  }
+
+  .navbar-menu > li {
+    padding: 0 1rem;
+  }
+
+  .navbar-menu > li a {
+    padding: 1rem 2rem !important;
+    border-radius: 4rem;
+  }
+
+  /*---------------------
+    Customer Reviews
+   ---------------------*/
+
+  /*---------------------
+    Footer
+   ---------------------*/
+}
+
+/*------------------------------------
+  Mobile
+  ----------------------------------*/
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .navbar-moble-tablet {
+    width: 100%;
+  }
+
+  /*--------------------
+    Navbar 
+   --------------------*/
+  .header {
+    border-radius: unset;
+  }
+
+  .navbar__left {
+    width: 10rem;
+    height: 5rem;
+    margin-left: 1rem;
+  }
+
+  .navbar-btn {
+    right: 5vw;
+  }
+
+  .navbar-input:checked ~ .navbar-moble-tablet {
+    color: var(--white-color);
+    background: var(--overlay-mobile-color);
+  }
+
+  .navbar-btn--close {
+    color: var(--white-color);
+  }
+
+  .navbar-list {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .navbar-list li:hover {
+    background: unset;
+  }
+
+  .navbar-list a {
+    border-radius: 1rem;
+
+    margin-left: 0;
+    white-space: nowrap;
+    color: var(--white-color);
+  }
+
+  .navbar-list a:not(.exit-overlay) {
+    padding: 2rem 1.5rem;
+  }
+
+  .navbar-link i {
+    margin: 0 2rem 0 1rem;
+  }
+
+  .exit-overlay label {
+    padding: 2rem 1.5rem;
+  }
+  /*---------------------
+    Container-fluid
+   ---------------------*/
+  .container-fluid__content .title {
+    font-size: 6rem;
+    height: 9rem;
+  }
+
+  .container-fluid__content > p:first-child {
+    font-size: 4.2rem;
+  }
+
+  .container-fluid__content > p:first-child::before {
+    top: -3.3rem;
+    right: 1.5rem;
+  }
+
+  .container-fluid__content > p:nth-child(2) {
+    font-size: 3.2rem;
+  }
+
+  a.btn {
+    padding: 1rem 3rem;
+  }
+
+  .container-fluid__content > .title {
+    font-size: 4rem;
+  }
+
+  /*---------------------
+    Qoute
+  ----------------------*/
+  .qoute {
+    padding: 6rem 0;
+  }
+
+  .qoute__details h3 {
+    font-size: unset;
+    line-height: unset;
+  }
+
+  /*---------------------
+    Special Menu
+  ----------------------*/
+  .special-menu {
+    background: url(../images/SpecialMenu-bg-mobile.jpg) repeat-y;
+    background-size: 100%;
+  }
+
+  .headline {
+    font-size: unset;
+    padding: 8rem 0 3rem;
+  }
+
+  .headline h2 {
+    font-size: 2.4rem;
+    padding: 1rem 0;
+  }
+
+  .navbar-menu {
+    width: 70%;
+
+    padding: 2rem 0;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .padding-items--mobile {
+    padding: 0 2rem;
+  }
+
+  .info__details {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: unset;
+  }
+
+  .info__details p {
+    padding: 1rem 0;
+  }
+
+  /*----------------------
+  Customer Reviews
+  -----------------------*/
+  .customer-reviews .slick-prev,
+  .customer-reviews .slick-next {
+    display: none;
+  }
+
+  /*---------------------
+    Footer
+   ---------------------*/
+  .footer {
+    text-align: center;
+  }
+
+  /* footer mid */
+  .footer__mid-items--headline h3::after {
+    left: 50%;
+    width: 10%;
+    transform: translateX(-50%);
+  }
+
+  .footer__mid-subcribe input {
+    display: unset;
+    width: 50%;
+  }
+
+  .footer__mid-about {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 25%;
+  }
+
+  /*--------------------------------------
+    Gallery Page
+    --------------------------------------*/
+  .header-page {
+    font-size: 4rem;
+  }
+
+  /*--------------------------------------
+    Book a table Page
+    --------------------------------------*/
+  .form-submit {
+    margin: 2rem auto;
+    width: 50%;
+    display: inherit;
+  }
+}

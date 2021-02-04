@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành Nam Restaurant - Đặt Bàn</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icon.ico">
+
+    <!-- Reset layout -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Dialog box -->
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+
+    <!-- Slide show -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Main StyleSheet CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Responesive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="grid" style="overflow:hidden">
+        <!-- header -->
+        <header class="header fixed-top">
+            <div class="navbar">
+                <!-- nav pc -->
+                <nav class="grid wide row">
+                    <div class="navbar__left">
+                        <a href="index.html">
+                            <img src="images/logo-brand.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="navbar__right hide-on-mobile-tablet">
+                        <ul>
+                            <li><a href="index.html">Trang Chủ</a></li>
+                            <li><a href="menu.html">Thực Đơn</a></li>
+                            <li><a class="active" href="book-a-table.html">Đặt Bàn</a></li>
+                            <li><a href="blog.html">Blog</a>
+                            </li>
+                            <li><a class="scroll-to-contact" href="#go-to-contact">Liên Hệ</a></li>
+                            <li class="sub-menu">
+                                <a href="javascript:;">Khác
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="sub-menu__content">
+                                    <li><a href="gallery.html">Ảnh</a></li>
+                                    <li><a href="about-us.html">Về Chúng Tôi</a></li>
+                                    <li><a href="chef.html">Đầu Bếp</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- nav mobile - tablet -->
+                <div class="nav">
+                    <label for="navbar-btn--input" class="navbar-btn display-on-mobile-tablet">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </label>
+                    <input type="checkbox" name="btn" id="navbar-btn--input" class="navbar-input" hidden>
+                    <label for="navbar-btn--input" class="navbar__overlay"></label>
+                    <nav class="navbar-moble-tablet">
+                        <label for="navbar-btn--input" class="navbar-btn--close">
+                            <i class="fas fa-times fa-2x"></i>
+                        </label>
+                        <ul class="navbar-list">
+                            <li>
+                                <a class="navbar-link" href="index.html">
+                                    <i class="fas fa-home"></i>Trang Chủ
+                                </a>
+                            </li>
+                            <li>
+                                <a class="navbar-link" href="menu.html"><i class="far fa-list-alt"></i>Thực Đơn</a>
+                            </li>
+                            <li><a class="navbar-link active" href="book-a-table.html"><i class="fas fa-chair"></i>Đặt
+                                    Bàn</a>
+                            </li>
+                            <li><a class="navbar-link" href="blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+                            <li>
+                                <a class="scroll-to-contact navbar-link exit-overlay" href="#go-to-contact">
+                                    <label for="navbar-btn--input"><i class="fas fa-phone-volume"></i>Liên Hệ</label>
+                                </a>
+                            </li>
+                            <li><a class="navbar-link" href="about-us.html"><i class="far fa-address-card"></i>Về Chúng
+                                    Tôi</a>
+                            </li>
+                            <li><a class="navbar-link" href="gallery.html"><i class="far fa-image"></i>Ảnh</a>
+                            </li>
+                            <li><a class="navbar-link" href="chef.html"><i class="fas fa-utensils"></i>Đầu
+                                    Bếp</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <!-- end header -->
+
+        <!-- container-fluid -->
+        <section class="container-fluid--bg container-fluid--bg__chef" id="goback">
+            <div class="grid wide container-fluid--bg__content">
+                <h1 class="header-page">Đặt Bàn</h1>
+            </div>
+        </section>
+        <!-- end container-fluid-->
+
+        <!-- book a table -->
+        <section class="grid wide">
+            <header class="headline" data-aos="flip-up">
+                <h2>Đặt Bàn</h2>
+                <p>Hãy lựa chọn thời gian thích hợp</p>
+            </header>
+            <form action="javascript:void(0);" class="row book-a-table" id="form-1">
+                <div class="col l-6 m-6 s-12 book-a-table__input" data-aos="zoom-in">
+                    <h3>Nhập thông tin ngày giờ</h3>
+                    <div class="row">
+                        <div class="col l-12 m-12 s-12 form-group">
+                            <label for="date" class="form-label">Chọn ngày (<span class="required">*</span>)</label>
+                            <input id="date" name="date" type="date" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="col l-12 m-12 s-12 form-group">
+                            <label for="hours" class="form-label">Chọn giờ (<span class="required">*</span>)</label>
+                            <select id="hours" class="form-control">
+                                <option value="time-booking">8:00 AM</option>
+                                <option value="time-booking">8:30 AM</option>
+                                <option value="time-booking">9:00 AM</option>
+                                <option value="time-booking">9:30 AM</option>
+                                <option value="time-booking">10:00 AM</option>
+                                <option value="time-booking">10:30 AM</option>
+                                <option value="time-booking">11:00 AM</option>
+                                <option value="time-booking">12:00 AM</option>
+                                <option value="time-booking">13:00</option>
+                                <option value="time-booking">13:30</option>
+                                <option value="time-booking">14:00</option>
+                                <option value="time-booking">14:30</option>
+                                <option value="time-booking">15:00</option>
+                                <option value="time-booking">16:00</option>
+                                <option value="time-booking">16:30</option>
+                                <option value="time-booking">17:00</option>
+                                <option value="time-booking">18:00</option>
+                                <option value="time-booking">19:00</option>
+                                <option value="time-booking">20:00</option>
+                                <option value="time-booking">20:30</option>
+                                <option value="time-booking">21:00</option>
+                                <option value="time-booking">21:30</option>
+                            </select>
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="col l-12 m-12 s-12 form-group">
+                            <label for="persons" class="form-label">Chọn số lượng người (<span
+                                    class="required">*</span>)</label>
+                            <select id="persons" class="form-control">
+                                <option value="numOfPerson">1 người</option>
+                                <option value="numOfPerson">2 người</option>
+                                <option value="numOfPerson">3 người</option>
+                                <option value="numOfPerson">4 người</option>
+                                <option value="numOfPerson">5 người</option>
+                                <option value="numOfPerson">Trên 5 người</option>
+                                <option value="numOfPerson">Trên 10 người</option>
+                                <option value="numOfPerson">Trên 15 người</option>
+                                <option value="numOfPerson">Trên 25 người</option>
+                                <option value="numOfPerson">Trên 30 người</option>
+                                <option value="numOfPerson">Trên 35 người</option>
+                                <option value="numOfPerson">Trên 40 người</option>
+                                <option value="numOfPerson">Trên 50 người</option>
+                            </select>
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-6 m-6 s-12 book-a-table__info" data-aos="zoom-in">
+                    <h3>Nhập thông tin liên hệ</h3>
+                    <div class="row">
+                        <div class="col l-12 m-12 s-12 form-group">
+                            <label for="fullname" class="form-label">Tên đầy đủ (<span
+                                    class="required">*</span>)</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="VD: Nguyễn Thành Nam"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="col l-12 m-12 s-12 form-group">
+                            <label for="address" class="form-label">Nhập địa chỉ (<span
+                                    class="required">*</span>)</label>
+                            <input id="address" name="address" type="text" placeholder="Nhập địa chỉ"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="col l-12 m-12 s-12 form-group">
+                            <label for="phone" class="form-label">Nhập số điện thoại (<span
+                                    class="required">*</span>)</label>
+                            <input id="phone" type="number" name="phone" type="text" placeholder="Nhập số điện thoại"
+                                class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-2 m-4 s-12 book-a-table__submit" data-aos="fade-up" data-aos-offset="0">
+                    <button class="form-submit" onclick="bookingCheck()">Đặt Bàn</button>
+                </div>
+            </form>
+        </section>
+        <!-- end chef -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer top -->
+            <div class="footer__top">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6 s-0" data-aos="zoom-in">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9356596756593!2d106.6756248153521!3d10.816235861414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e19559e523%3A0x8e4133bdb1373cc9!2zMzcxIE5ndXnhu4VuIEtp4buHbSwgUGjGsOG7nW5nIDMsIEfDsiBW4bqlcCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1597454228030!5m2!1svi!2s"
+                                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <div class="col l-6 m-6 s-0" data-aos="zoom-in">
+                            <div class="row">
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="fas fa-phone-volume"></i>
+                                    </div>
+                                    <p><span>Phone</span><br>+84 1944-183-710</p>
+                                </div>
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <p><span>Email</span><br>nhokchibi365@gmail.com</p>
+                                </div>
+                                <div class="col l-12 m-12 footer__top-right">
+                                    <div class="footer__top-right--items">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <p><span>Location</span><br>371 Nguyễn Kiệm, P.3, Q.Gò Vấp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer mid -->
+            <div class="footer__mid" data-aos="fade-up">
+                <div class="footer__mid-bg">
+                    <div class="grid wide">
+                        <div class="footer__mid-content">
+                            <div class="row">
+                                <div class="col l-3 m-6 s-12 footer__mid-items footer__mid-about">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Về Chúng Tôi</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>Sự hài lòng của quý khách là niềm vinh hạnh của chúng tôi. Chúc quý khách có
+                                            1 bữa tiệc ngon miệng, chúng tôi luôn đồng hành và phục vụ hết mình. Xin cảm
+                                            ơn !!!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items footer__mid-subcribe">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Đăng Ký Nhận Thông Tin</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <form action="javascript:void(0);">
+                                            <input type="email" placeholder="Nhập địa chỉ Email..." id="register">
+                                            <input type="submit" value="Đăng Ký" onclick="registerCheck()">
+                                        </form>
+                                        <ul class="social-items">
+                                            <li>
+                                                <a class="btn-footer" href="https://twitter.com/ThnhNam35638876"
+                                                    target="_blank"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://www.facebook.com/NguyenThanhNam1601"
+                                                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://www.instagram.com/yuuto2k1"
+                                                    target="_blank"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="#notlink"><i class="fab fa-google"
+                                                        target="_blank"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="btn-footer" href="https://github.com/nhokchibi365"
+                                                    target="_blank"><i class="fab fa-github"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Thông Tin Liên Lạc</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>371 Nguyễn Kiệm, P.3, Q.Gò Vấp</p>
+                                        <p>+84 1944-183-710</p>
+                                        <p>nhokchibi365@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 s-12 footer__mid-items">
+                                    <div class="footer__mid-items--headline">
+                                        <h3>Giờ Mở Cửa</h3>
+                                    </div>
+                                    <div class="footer__mid-items--details">
+                                        <p>Thứ Hai: Đóng Cửa</p>
+                                        <p>Thứ Ba - Thứ Tư: 9:AM - 10:PM</p>
+                                        <p>Thứ Năm - Thứ Sáu: 9:AM - 10:PM</p>
+                                        <p>Thứ Bảy - Chủ Nhật: 5:PM - 10:PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer bottom -->
+            <div class="footer__bottom" id="go-to-contact">
+                <p>Copyright &copy; 2020 All Rights Reserved</p>
+                <p>Design By Thành Nam</p>
+                <a id="go-to-top" href="#goback"><i class="fas fa-angle-up"></i></a>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="105825651245887" theme_color="#f05123"
+        logged_in_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?"
+        logged_out_greeting="Xin chào! Chúng tôi có thể giúp được gì cho bạn ?">
+    </div>
+
+    <!-- Animation JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- All Flugins -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- All File JS -->
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+
+    <!-- Form Validation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            Validator({
+                form: '#form-1',
+                formGroupSelector: '.form-group',
+                errorSelector: '.form-message',
+                rules: [
+                    Validator.isRequired('#date', 'Vui lòng nhập thời gian'),
+                    Validator.isRequired('#address', 'Vui lòng nhập địa chỉ của bạn'),
+                    Validator.isRequired('#fullname', 'Vui lòng nhập tên đầy đủ của bạn'),
+                    Validator.isRequired('#address', 'Vui lòng nhập địa chỉ của bạn'),
+                    Validator.minLength('#phone', 10),
+                ],
+                onSubmit: function (data) {
+                    // Call API
+                    console.log(data);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

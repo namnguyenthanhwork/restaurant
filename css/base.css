@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #f05123;
+  --blog-primary-color: #ec5a31;
+  --secondary-color: #0084ff;
+  --yellow-color: #faff6c;
+  --light-primary-color: #cfa671b2;
+  --white-color: #fff;
+  --shadow-color: #7f89a19a;
+  --black-color: #000;
+  --text-color: #333;
+  --overlay-mobile-color: #000000e0;
+  --gray-color: #cccbcb;
+  --error-color: #f33a58;
+  --gray-input-color: #b3b3b3;
+  --light-blue-color: #498fe64a;
+  --red-color: #f00;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+body {
+  background: var(--white-color);
+  color: var(--text-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
